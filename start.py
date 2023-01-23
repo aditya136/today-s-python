@@ -1,13 +1,5 @@
-#rock, paper, scissors game
-import random
-
-def get_choices():
-  player_choice = input("Ener a choice (rock, paper, scissors): ")
-  options = ["rock", "paper", "scissors"]
-  computer_choice = random.choice(options)
-  choices = {"player" : player_choice, "computer" : computer_choice}
-  
-  return choices
-
-choices = get_choices()
-print(choices)
+#Pritom dada is learning about Python...
+#tere is a thing called variable
+It_is_a_variable = "and_it_is_a_string_or_the_value_of_the_variable"
+#A common function that give back the thing wihch we writen in this function called print() function
+print(It_is_a_variable)
