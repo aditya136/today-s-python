@@ -1,12 +1,6 @@
-a = '''Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua.'''
-print(a)
+#use of random module...
 
-
-a = """Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua."""
-print(a)
+import random
+options = ("will chose from here", "it will chose randomly")
+chose = random.choice(options)
+print(chose)
