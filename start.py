@@ -1,6 +1,3 @@
-#use of random module...
-
-import random
-options = ("will chose from here", "it will chose randomly")
-chose = random.choice(options)
-print(chose)
+#saying I am a programmer without saying I am a programmer
+x = "programmer"
+print("I am a",x)
